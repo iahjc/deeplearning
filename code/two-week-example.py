@@ -13,3 +13,7 @@ from scipy import ndimage
 # 1. 标记为猫是1 不是猫为0 的训练图像集
 # 2. 标记为猫或非猫的测试训练图像集
 # 3. 每个图形的形状(num_px, num_px, 3),其中3表示3个通道(RGB). 因此每个图像都是正方形(高度=num_px) 和 (宽度=num_px)
+
+
+# 构建一个简单的图像识别算法，可以正确地将图片分类为猫或非猫。
+# https://blog.csdn.net/u013733326/article/details/79639509 课后练习题
